@@ -1,0 +1,117 @@
+td {
+    width: 150px;
+}
+
+body {
+    background: rgb(71, 161, 71);
+}
+
+
+.new__form {
+    width: 400px;
+    height: 440px;
+    background: green;
+    display: block;
+    margin: 30px auto;
+    border-radius: 5px;
+    padding-top: 5px; 
+}
+
+.new__form-name {
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.new__form-elems {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 10px 20px;
+}
+
+.new__form-item {
+    display: block;
+    margin-top: 5px;
+    padding: 10px 30px;
+    border-radius: 3px;
+    border: none;
+}
+
+.btn {
+    background: rgb(36, 151, 36); 
+    color: #fff;
+    font-size: 20px;
+    border: 1px solid white;
+     
+}
+
+.btn:hover {
+    background: rgb(46, 186, 46); 
+}
+
+.new__form2 {
+    width: 450px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    background: #fff;
+    justify-content: center;
+    margin: 30px auto; 
+}
+
+.new__form-name2 {
+    color: black;
+    text-align: center;
+    letter-spacing: 2px;
+    font-size: 20px;
+    font-weight: 200;
+    margin-top: 15px;
+}
+
+.new__form-item2 {
+    background:rgb(244, 244, 144);
+    padding: 10px 0; 
+    margin-top: 15px;
+}
+
+.new__form-input {
+    background: rgb(253, 253, 125);
+    padding: 5px;
+
+}
+
+.new__form-items2 {
+    margin-top: 15px;
+}
+
+.new__form-items2 input {
+    display: block;
+    width: 95%;
+    border-radius: 3px;
+    border: 1px solid gray;
+    padding: 10px;
+}
+
+textarea {
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.new__form-btn {
+    width: 100px;
+    height: auto;
+    background: green;
+    padding: 10px 5px;
+    border: none;
+    margin: 10px 0;
+    border-radius: 3px;
+    color: white;
+}
+
+.new__form-thank-you {
+    display: block;
+    padding: 5px;
+    border: 1px solid darkgreen;
+}
